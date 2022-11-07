@@ -1,0 +1,19 @@
+{
+    "pack": {
+      "pack_format": 10,
+      "description": "Utilities to be used for the Adventure Map"
+    },
+    "filter": {
+        "block": [
+            {
+                "namespace": "minecraft",
+                "path": "recipes/.*"
+            },
+            {
+                "namespace": "minecraft",
+                "path": "advancements/.*"
+            }
+        ]
+    }
+  }
+  
