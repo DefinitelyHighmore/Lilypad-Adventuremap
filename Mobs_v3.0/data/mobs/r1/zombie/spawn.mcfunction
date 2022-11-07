@@ -1,1 +1,0 @@
-summon zombie ~ ~ ~ {Tags:["combat.init"],ActiveEffects:[{Id:11,Amplifier:4b,ShowParticles:0b}]}
