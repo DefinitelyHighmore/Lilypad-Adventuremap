@@ -1,4 +1,4 @@
-## Storing combat IDs for mobs
+## Storing IDs for mobs
 ##========================================================
 scoreboard objectives add combat.id dummy
     scoreboard players set #2 combat.id 2
@@ -18,3 +18,23 @@ scoreboard objectives add combat.bit12 dummy
 scoreboard objectives add combat.bit13 dummy
 scoreboard objectives add combat.bit14 dummy
 scoreboard objectives add combat.bit15 dummy
+##========================================================
+
+## Storing Stats for Players and Mobs
+##========================================================
+scoreboard objectives add combat.master.stats dummy
+scoreboard objectives add combat.physical.raw dummy
+scoreboard objectives add combat.magic.raw dummy
+scoreboard objectives add combat.physical.mult dummy
+scoreboard objectives add combat.magic.mult dummy
+scoreboard objectives add combat.physical.damage dummy
+scoreboard objectives add combat.magic.damage dummy
+scoreboard objectives add combat.true.damage dummy
+scoreboard objectives add combat.hp.current dummy
+scoreboard objectives add combat.hp.max dummy
+##========================================================
+
+
+
+
+
