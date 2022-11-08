@@ -9,7 +9,10 @@
         "stray",
         "zombie_villager",
         "zombie_horse",
-        "wither"
-        
+        "wither",
+        "drowned",
+        "phantom",
+        "skeleton_horse",
+        "zoglin"
     ]
 }
