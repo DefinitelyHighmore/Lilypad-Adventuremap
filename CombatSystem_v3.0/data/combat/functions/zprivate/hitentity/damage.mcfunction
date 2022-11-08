@@ -12,3 +12,4 @@ tag @e[type=area_effect_cloud,tag=combat.aec] remove combat.aec
 ##========================================================
 tag @a[tag=combat.target] remove combat.target
 scoreboard players set @s combat.immune 5
+tag @s remove combat.hit
