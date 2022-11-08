@@ -1,0 +1,59 @@
+{
+	"credit": "Made with Blockbench",
+	"textures": {
+		"0": "custom/npcmaker/npcrotate",
+		"particle": "custom/npcmaker/npcrotate"
+	},
+	"elements": [
+		{
+			"from": [0, 0, 0],
+			"to": [22, 0, 22],
+			"faces": {
+				"up": {"uv": [0, 0, 16, 16], "texture": "#0"},
+				"down": {"uv": [0, 16, 16, 0], "texture": "#0"}
+			}
+		}
+	],
+	"gui_light": "front",
+	"display": {
+		"thirdperson_righthand": {
+			"rotation": [90.5, 0, 0],
+			"translation": [-4, 4.5, 4],
+			"scale": [0.5, 0.5, 0.5]
+		},
+		"thirdperson_lefthand": {
+			"rotation": [90.5, 0, 0],
+			"translation": [2, 4.5, 4],
+			"scale": [0.5, 0.5, 0.5]
+		},
+		"firstperson_righthand": {
+			"rotation": [90.5, 0, 0],
+			"translation": [-1.25, 5.75, 4.5],
+			"scale": [0.5, 0.5, 0.5]
+		},
+		"firstperson_lefthand": {
+			"rotation": [90.5, 0, 0],
+			"translation": [2, 5.75, 4.5],
+			"scale": [0.5, 0.5, 0.5]
+		},
+		"ground": {
+			"translation": [0, 24.25, 0],
+			"scale": [4, 4, 4]
+		},
+		"gui": {
+			"rotation": [90.5, 0, 0],
+			"translation": [-3.25, 2, 4],
+			"scale": [1, 0, 1]
+		},
+		"head": {
+			"rotation": [90, 0, 180],
+			"translation": [5.5, 42.2, -31.25],
+			"scale": [4, 4, 4]
+		},
+		"fixed": {
+			"rotation": [90, 0, 180],
+			"translation": [12.75, 11, -33],
+			"scale": [4, 4, 4]
+		}
+	}
+}
