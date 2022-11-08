@@ -1,5 +1,6 @@
 scoreboard players operation $percent combat.hp.current = @s combat.hp.current
 scoreboard players operation $percent combat.hp.current /= @s combat.hp.max
+execute if score $percent combat.hp.current matches 91..100 run say 100%
 execute if score $percent combat.hp.current matches 81..90 run say 90%
 execute if score $percent combat.hp.current matches 71..80 run say 80%
 execute if score $percent combat.hp.current matches 61..70 run say 70%

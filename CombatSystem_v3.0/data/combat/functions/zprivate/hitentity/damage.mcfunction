@@ -10,3 +10,4 @@ execute if entity @s[type=!#combat:undead,nbt={HurtTime:0s}] at @s run summon mi
 execute as @e[type=area_effect_cloud,tag=combat.aec] run data modify entity @s Owner set from entity @a[tag=combat.target,limit=1] UUID
 tag @e[type=area_effect_cloud,tag=combat.aec] remove combat.aec
 ##========================================================
+tag @a[tag=combat.target] remove combat.target
