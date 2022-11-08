@@ -18,4 +18,4 @@ execute if entity @s[advancements={combat:damage/hitentity={bit14=true}}] run sc
 execute if entity @s[advancements={combat:damage/hitentity={bit15=true}}] run scoreboard players add $hit combat.id 32768
 function combat:zprivate/hitentity/rollbase
 advancement revoke @s only combat:damage/hitentity
-say ran
+

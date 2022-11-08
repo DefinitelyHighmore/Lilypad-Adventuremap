@@ -22,7 +22,8 @@ scoreboard objectives add combat.bit15 dummy
 
 ## Storing Stats for Players and Mobs
 ##========================================================
-scoreboard objectives add combat.master.stats dummy
+scoreboard objectives add combat.mob.stats dummy
+    scoreboard players set #100 combat.mob.stats 100
 scoreboard objectives add combat.physical.raw dummy
 scoreboard objectives add combat.magic.raw dummy
 scoreboard objectives add combat.physical.mult dummy

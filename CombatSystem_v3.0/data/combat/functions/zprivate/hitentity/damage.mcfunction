@@ -1,6 +1,6 @@
-scoreboard players operation $output utils.math -= @s combat.physical.raw
-scoreboard players operation $output utils.math *= @s combat.physical.mult
-scoreboard players operation @s combat.hp.current -= $output utils.math
+scoreboard players operation $out utils.math -= @s combat.physical.raw
+scoreboard players operation $out utils.math *= @s combat.physical.mult
+scoreboard players operation @s combat.hp.current -= $out utils.math
 execute if score @s combat.hp.current matches ..0 run function combat:zprivate/hitentity/kill
 execute unless score @s combat.hp.current matches ..0 run function combat:zprivate/hitentity/updatehp
 ##Hurt Animation if necessary
@@ -11,3 +11,4 @@ execute as @e[type=area_effect_cloud,tag=combat.aec] run data modify entity @s O
 tag @e[type=area_effect_cloud,tag=combat.aec] remove combat.aec
 ##========================================================
 tag @a[tag=combat.target] remove combat.target
+scoreboard players set @s combat.immune 5
