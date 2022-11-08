@@ -1,4 +1,4 @@
-tag @s add combat.target
+tag @s add combat.attacker
 scoreboard players set $hit combat.id 0
 execute if entity @s[advancements={combat:damage/hitentity={bit0=true}}] run scoreboard players add $hit combat.id 1
 execute if entity @s[advancements={combat:damage/hitentity={bit1=true}}] run scoreboard players add $hit combat.id 2
