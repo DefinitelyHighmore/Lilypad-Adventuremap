@@ -1,0 +1,745 @@
+{
+  "criteria": {
+    "bit0": {
+      "trigger": "minecraft:player_hurt_entity",
+      "conditions": {
+        "entity": [
+          {
+            "condition": "minecraft:entity_scores",
+            "entity": "this",
+            "scores": {
+              "combat.immune": 0
+            }
+          },
+          {
+            "condition": "minecraft:entity_scores",
+            "entity": "this",
+            "scores": {
+              "combat.bit0": 1
+            }
+          }
+        ]
+      }
+    },
+    "nbit0": {
+      "trigger": "minecraft:player_hurt_entity",
+      "conditions": {
+        "entity": [
+          {
+            "condition": "minecraft:entity_scores",
+            "entity": "this",
+            "scores": {
+              "combat.bit0": 0
+            }
+          },
+          {
+            "condition": "minecraft:entity_scores",
+            "entity": "this",
+            "scores": {
+              "combat.immune": 0
+            }
+          }
+        ]
+      }
+    },
+    "bit1": {
+      "trigger": "minecraft:player_hurt_entity",
+      "conditions": {
+        "entity": [
+          {
+            "condition": "minecraft:entity_scores",
+            "entity": "this",
+            "scores": {
+              "combat.immune": 0
+            }
+          },
+          {
+            "condition": "minecraft:entity_scores",
+            "entity": "this",
+            "scores": {
+              "combat.bit1": 1
+            }
+          }
+        ]
+      }
+    },
+    "nbit1": {
+      "trigger": "minecraft:player_hurt_entity",
+      "conditions": {
+        "entity": [
+          {
+            "condition": "minecraft:entity_scores",
+            "entity": "this",
+            "scores": {
+              "combat.bit1": 0
+            }
+          },
+          {
+            "condition": "minecraft:entity_scores",
+            "entity": "this",
+            "scores": {
+              "combat.immune": 0
+            }
+          }
+        ]
+      }
+    },
+    "bit2": {
+      "trigger": "minecraft:player_hurt_entity",
+      "conditions": {
+        "entity": [
+          {
+            "condition": "minecraft:entity_scores",
+            "entity": "this",
+            "scores": {
+              "combat.immune": 0
+            }
+          },
+          {
+            "condition": "minecraft:entity_scores",
+            "entity": "this",
+            "scores": {
+              "combat.bit2": 1
+            }
+          }
+        ]
+      }
+    },
+    "nbit2": {
+      "trigger": "minecraft:player_hurt_entity",
+      "conditions": {
+        "entity": [
+          {
+            "condition": "minecraft:entity_scores",
+            "entity": "this",
+            "scores": {
+              "combat.bit2": 0
+            }
+          },
+          {
+            "condition": "minecraft:entity_scores",
+            "entity": "this",
+            "scores": {
+              "combat.immune": 0
+            }
+          }
+        ]
+      }
+    },
+    "bit3": {
+      "trigger": "minecraft:player_hurt_entity",
+      "conditions": {
+        "entity": [
+          {
+            "condition": "minecraft:entity_scores",
+            "entity": "this",
+            "scores": {
+              "combat.immune": 0
+            }
+          },
+          {
+            "condition": "minecraft:entity_scores",
+            "entity": "this",
+            "scores": {
+              "combat.bit3": 1
+            }
+          }
+        ]
+      }
+    },
+    "nbit3": {
+      "trigger": "minecraft:player_hurt_entity",
+      "conditions": {
+        "entity": [
+          {
+            "condition": "minecraft:entity_scores",
+            "entity": "this",
+            "scores": {
+              "combat.bit3": 0
+            }
+          },
+          {
+            "condition": "minecraft:entity_scores",
+            "entity": "this",
+            "scores": {
+              "combat.immune": 0
+            }
+          }
+        ]
+      }
+    },
+    "bit4": {
+      "trigger": "minecraft:player_hurt_entity",
+      "conditions": {
+        "entity": [
+          {
+            "condition": "minecraft:entity_scores",
+            "entity": "this",
+            "scores": {
+              "combat.immune": 0
+            }
+          },
+          {
+            "condition": "minecraft:entity_scores",
+            "entity": "this",
+            "scores": {
+              "combat.bit4": 1
+            }
+          }
+        ]
+      }
+    },
+    "nbit4": {
+      "trigger": "minecraft:player_hurt_entity",
+      "conditions": {
+        "entity": [
+          {
+            "condition": "minecraft:entity_scores",
+            "entity": "this",
+            "scores": {
+              "combat.bit4": 0
+            }
+          },
+          {
+            "condition": "minecraft:entity_scores",
+            "entity": "this",
+            "scores": {
+              "combat.immune": 0
+            }
+          }
+        ]
+      }
+    },
+    "bit5": {
+      "trigger": "minecraft:player_hurt_entity",
+      "conditions": {
+        "entity": [
+          {
+            "condition": "minecraft:entity_scores",
+            "entity": "this",
+            "scores": {
+              "combat.immune": 0
+            }
+          },
+          {
+            "condition": "minecraft:entity_scores",
+            "entity": "this",
+            "scores": {
+              "combat.bit5": 1
+            }
+          }
+        ]
+      }
+    },
+    "nbit5": {
+      "trigger": "minecraft:player_hurt_entity",
+      "conditions": {
+        "entity": [
+          {
+            "condition": "minecraft:entity_scores",
+            "entity": "this",
+            "scores": {
+              "combat.bit5": 0
+            }
+          },
+          {
+            "condition": "minecraft:entity_scores",
+            "entity": "this",
+            "scores": {
+              "combat.immune": 0
+            }
+          }
+        ]
+      }
+    },
+    "bit6": {
+      "trigger": "minecraft:player_hurt_entity",
+      "conditions": {
+        "entity": [
+          {
+            "condition": "minecraft:entity_scores",
+            "entity": "this",
+            "scores": {
+              "combat.immune": 0
+            }
+          },
+          {
+            "condition": "minecraft:entity_scores",
+            "entity": "this",
+            "scores": {
+              "combat.bit6": 1
+            }
+          }
+        ]
+      }
+    },
+    "nbit6": {
+      "trigger": "minecraft:player_hurt_entity",
+      "conditions": {
+        "entity": [
+          {
+            "condition": "minecraft:entity_scores",
+            "entity": "this",
+            "scores": {
+              "combat.bit6": 0
+            }
+          },
+          {
+            "condition": "minecraft:entity_scores",
+            "entity": "this",
+            "scores": {
+              "combat.immune": 0
+            }
+          }
+        ]
+      }
+    },
+    "bit7": {
+      "trigger": "minecraft:player_hurt_entity",
+      "conditions": {
+        "entity": [
+          {
+            "condition": "minecraft:entity_scores",
+            "entity": "this",
+            "scores": {
+              "combat.immune": 0
+            }
+          },
+          {
+            "condition": "minecraft:entity_scores",
+            "entity": "this",
+            "scores": {
+              "combat.bit7": 1
+            }
+          }
+        ]
+      }
+    },
+    "nbit7": {
+      "trigger": "minecraft:player_hurt_entity",
+      "conditions": {
+        "entity": [
+          {
+            "condition": "minecraft:entity_scores",
+            "entity": "this",
+            "scores": {
+              "combat.bit7": 0
+            }
+          },
+          {
+            "condition": "minecraft:entity_scores",
+            "entity": "this",
+            "scores": {
+              "combat.immune": 0
+            }
+          }
+        ]
+      }
+    },
+    "bit8": {
+      "trigger": "minecraft:player_hurt_entity",
+      "conditions": {
+        "entity": [
+          {
+            "condition": "minecraft:entity_scores",
+            "entity": "this",
+            "scores": {
+              "combat.immune": 0
+            }
+          },
+          {
+            "condition": "minecraft:entity_scores",
+            "entity": "this",
+            "scores": {
+              "combat.bit8": 1
+            }
+          }
+        ]
+      }
+    },
+    "nbit8": {
+      "trigger": "minecraft:player_hurt_entity",
+      "conditions": {
+        "entity": [
+          {
+            "condition": "minecraft:entity_scores",
+            "entity": "this",
+            "scores": {
+              "combat.bit8": 0
+            }
+          },
+          {
+            "condition": "minecraft:entity_scores",
+            "entity": "this",
+            "scores": {
+              "combat.immune": 0
+            }
+          }
+        ]
+      }
+    },
+    "bit9": {
+      "trigger": "minecraft:player_hurt_entity",
+      "conditions": {
+        "entity": [
+          {
+            "condition": "minecraft:entity_scores",
+            "entity": "this",
+            "scores": {
+              "combat.immune": 0
+            }
+          },
+          {
+            "condition": "minecraft:entity_scores",
+            "entity": "this",
+            "scores": {
+              "combat.bit9": 1
+            }
+          }
+        ]
+      }
+    },
+    "nbit9": {
+      "trigger": "minecraft:player_hurt_entity",
+      "conditions": {
+        "entity": [
+          {
+            "condition": "minecraft:entity_scores",
+            "entity": "this",
+            "scores": {
+              "combat.bit9": 0
+            }
+          },
+          {
+            "condition": "minecraft:entity_scores",
+            "entity": "this",
+            "scores": {
+              "combat.immune": 0
+            }
+          }
+        ]
+      }
+    },
+    "bit10": {
+      "trigger": "minecraft:player_hurt_entity",
+      "conditions": {
+        "entity": [
+          {
+            "condition": "minecraft:entity_scores",
+            "entity": "this",
+            "scores": {
+              "combat.immune": 0
+            }
+          },
+          {
+            "condition": "minecraft:entity_scores",
+            "entity": "this",
+            "scores": {
+              "combat.bit10": 1
+            }
+          }
+        ]
+      }
+    },
+    "nbit10": {
+      "trigger": "minecraft:player_hurt_entity",
+      "conditions": {
+        "entity": [
+          {
+            "condition": "minecraft:entity_scores",
+            "entity": "this",
+            "scores": {
+              "combat.bit10": 0
+            }
+          },
+          {
+            "condition": "minecraft:entity_scores",
+            "entity": "this",
+            "scores": {
+              "combat.immune": 0
+            }
+          }
+        ]
+      }
+    },
+    "bit11": {
+      "trigger": "minecraft:player_hurt_entity",
+      "conditions": {
+        "entity": [
+          {
+            "condition": "minecraft:entity_scores",
+            "entity": "this",
+            "scores": {
+              "combat.immune": 0
+            }
+          },
+          {
+            "condition": "minecraft:entity_scores",
+            "entity": "this",
+            "scores": {
+              "combat.bit11": 1
+            }
+          }
+        ]
+      }
+    },
+    "nbit11": {
+      "trigger": "minecraft:player_hurt_entity",
+      "conditions": {
+        "entity": [
+          {
+            "condition": "minecraft:entity_scores",
+            "entity": "this",
+            "scores": {
+              "combat.bit11": 0
+            }
+          },
+          {
+            "condition": "minecraft:entity_scores",
+            "entity": "this",
+            "scores": {
+              "combat.immune": 0
+            }
+          }
+        ]
+      }
+    },
+    "bit12": {
+      "trigger": "minecraft:player_hurt_entity",
+      "conditions": {
+        "entity": [
+          {
+            "condition": "minecraft:entity_scores",
+            "entity": "this",
+            "scores": {
+              "combat.immune": 0
+            }
+          },
+          {
+            "condition": "minecraft:entity_scores",
+            "entity": "this",
+            "scores": {
+              "combat.bit12": 1
+            }
+          }
+        ]
+      }
+    },
+    "nbit12": {
+      "trigger": "minecraft:player_hurt_entity",
+      "conditions": {
+        "entity": [
+          {
+            "condition": "minecraft:entity_scores",
+            "entity": "this",
+            "scores": {
+              "combat.bit12": 0
+            }
+          },
+          {
+            "condition": "minecraft:entity_scores",
+            "entity": "this",
+            "scores": {
+              "combat.immune": 0
+            }
+          }
+        ]
+      }
+    },
+    "bit13": {
+      "trigger": "minecraft:player_hurt_entity",
+      "conditions": {
+        "entity": [
+          {
+            "condition": "minecraft:entity_scores",
+            "entity": "this",
+            "scores": {
+              "combat.immune": 0
+            }
+          },
+          {
+            "condition": "minecraft:entity_scores",
+            "entity": "this",
+            "scores": {
+              "combat.bit13": 1
+            }
+          }
+        ]
+      }
+    },
+    "nbit13": {
+      "trigger": "minecraft:player_hurt_entity",
+      "conditions": {
+        "entity": [
+          {
+            "condition": "minecraft:entity_scores",
+            "entity": "this",
+            "scores": {
+              "combat.bit13": 0
+            }
+          },
+          {
+            "condition": "minecraft:entity_scores",
+            "entity": "this",
+            "scores": {
+              "combat.immune": 0
+            }
+          }
+        ]
+      }
+    },
+    "bit14": {
+      "trigger": "minecraft:player_hurt_entity",
+      "conditions": {
+        "entity": [
+          {
+            "condition": "minecraft:entity_scores",
+            "entity": "this",
+            "scores": {
+              "combat.immune": 0
+            }
+          },
+          {
+            "condition": "minecraft:entity_scores",
+            "entity": "this",
+            "scores": {
+              "combat.bit14": 1
+            }
+          }
+        ]
+      }
+    },
+    "nbit14": {
+      "trigger": "minecraft:player_hurt_entity",
+      "conditions": {
+        "entity": [
+          {
+            "condition": "minecraft:entity_scores",
+            "entity": "this",
+            "scores": {
+              "combat.bit14": 0
+            }
+          },
+          {
+            "condition": "minecraft:entity_scores",
+            "entity": "this",
+            "scores": {
+              "combat.immune": 0
+            }
+          }
+        ]
+      }
+    },
+    "bit15": {
+      "trigger": "minecraft:player_hurt_entity",
+      "conditions": {
+        "entity": [
+          {
+            "condition": "minecraft:entity_scores",
+            "entity": "this",
+            "scores": {
+              "combat.immune": 0
+            }
+          },
+          {
+            "condition": "minecraft:entity_scores",
+            "entity": "this",
+            "scores": {
+              "combat.bit15": 1
+            }
+          }
+        ]
+      }
+    },
+    "nbit15": {
+      "trigger": "minecraft:player_hurt_entity",
+      "conditions": {
+        "entity": [
+          {
+            "condition": "minecraft:entity_scores",
+            "entity": "this",
+            "scores": {
+              "combat.bit15": 0
+            }
+          },
+          {
+            "condition": "minecraft:entity_scores",
+            "entity": "this",
+            "scores": {
+              "combat.immune": 0
+            }
+          }
+        ]
+      }
+    }
+  },
+  "requirements": [
+    [
+      "bit0",
+      "nbit0"
+    ],
+    [
+      "bit1",
+      "nbit1"
+    ],
+    [
+      "bit2",
+      "nbit2"
+    ],
+    [
+      "bit3",
+      "nbit3"
+    ],
+    [
+      "bit4",
+      "nbit4"
+    ],
+    [
+      "bit5",
+      "nbit5"
+    ],
+    [
+      "bit6",
+      "nbit6"
+    ],
+    [
+      "bit7",
+      "nbit7"
+    ],
+    [
+      "bit8",
+      "nbit8"
+    ],
+    [
+      "bit9",
+      "nbit9"
+    ],
+    [
+      "bit10",
+      "nbit10"
+    ],
+    [
+      "bit11",
+      "nbit11"
+    ],
+    [
+      "bit12",
+      "nbit12"
+    ],
+    [
+      "bit13",
+      "nbit13"
+    ],
+    [
+      "bit14",
+      "nbit14"
+    ],
+    [
+      "bit15",
+      "nbit15"
+    ]
+  ],
+  "rewards": {
+    "function": "combat:zprivate/hitentity/getid"
+  }
+}

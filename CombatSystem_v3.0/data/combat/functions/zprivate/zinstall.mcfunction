@@ -32,6 +32,7 @@ scoreboard objectives add combat.magic.damage dummy
 scoreboard objectives add combat.true.damage dummy
 scoreboard objectives add combat.hp.current dummy
 scoreboard objectives add combat.hp.max dummy
+scoreboard objectives add combat.immune dummy
 ##========================================================
 
 
