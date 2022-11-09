@@ -4,5 +4,5 @@ execute if score $bool combat.id matches 0 run scoreboard players set $out utils
 execute if score $bool combat.id matches 1 run function combat:zprivate/hitentity/rollbase1
 function combat:zprivate/basemod/physical
 function combat:zprivate/abilities/placeholder
-execute as @e[tag=combat.registered,limit=1] if score @s combat.id = $hit combat.id run tag @s add combat.hit
+execute as @e[tag=combat.registered] if score @s combat.id = $hit combat.id run tag @s add combat.hit
 execute unless score $out utils.math matches 0 as @e[type=!player,tag=combat.hit] run function combat:zprivate/hitentity/damage
