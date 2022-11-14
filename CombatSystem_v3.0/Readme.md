@@ -21,7 +21,7 @@ While mobs update their hp scores in the same tick, players do not because we ar
 
 The Datapack uses advancements to cover it's automatic damage processing and stats updating. When players hit entities or entities hit players, being through melee or through projectiles, advancements under `combat:damage` trigger accordingly (The advancements are found in the advancements folder under the namespace, not the function folder).
 
-Whenever a mob hits a player, the `combat:damage/player` advancement is triggered and when a player hits a mob, `combat:damage/entity` is triggered. You can follow the path it takes from there, I have commented inside the functions to explain how it works.
+Whenever a mob hits a player, the `combat:damage/player` advancement is triggered and when a player hits a mob, `combat:damage/mob` is triggered. You can follow the path it takes from there, I have commented inside the functions to explain how it works.
 
 When you switch armor, usually the `inventory_changed` trigger advancement under `combat:gear` will detect it automatically and update your stats. However there is an edge case where it does not detect you changing your armor, so a tick fucntion has to be used to detect the player dropping a piece of armor.
 
