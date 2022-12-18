@@ -1,0 +1,15 @@
+{
+    "providers": [
+        {
+            "type": "bitmap",
+            "file": "custom:font/overlay.png",
+            "ascent": 128,
+            "height":256,
+            "chars": [
+                "\uA000\uA001\uA002",
+                "\uB000\uB001\uB002"
+
+            ]
+        }
+    ]
+}

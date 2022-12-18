@@ -1,7 +1,0 @@
-{
-  "parent": "minecraft:item/generated",
-  "textures": {
-    "layer0": "minecraft:item/ender_eye"
-  },
-  "overrides":[{"predicate":{"custom_model_data":1}, "model":"custom/npcmaker/npcmaker"},{"predicate":{"custom_model_data":2}, "model":"custom/npcmaker/npcadd"},{"predicate":{"custom_model_data":3}, "model":"custom/npcmaker/npcregister"},{"predicate":{"custom_model_data":4}, "model":"custom/npcmaker/npcsearch"},{"predicate":{"custom_model_data":5}, "model":"custom/npcmaker/npcname"},{"predicate":{"custom_model_data":6}, "model":"custom/npcmaker/npcglow"},{"predicate":{"custom_model_data":7}, "model":"custom/npcmaker/npcinvis"},{"predicate":{"custom_model_data":8}, "model":"custom/npcmaker/npcai"},{"predicate":{"custom_model_data":9}, "model":"custom/npcmaker/npcrotate"},{"predicate":{"custom_model_data":10}, "model":"custom/npcmaker/cancel"},{"predicate":{"custom_model_data":11}, "model":"custom/npcmaker/back"},{"predicate":{"custom_model_data":12}, "model":"custom/npcmaker/npcremove"},{"predicate":{"custom_model_data":13}, "model":"custom/npcmaker/npchitbox"},{"predicate":{"custom_model_data":14}, "model":"custom/npcmaker/npchitboxremove"}]
-}

@@ -1,0 +1,6 @@
+{
+	"parent": "minecraft:custom/largeweapon",
+	"textures": {
+		"layer0": "custom:weapon/iceblade"
+	}
+}

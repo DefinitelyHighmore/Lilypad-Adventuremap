@@ -1,0 +1,15 @@
+{
+    "providers": [
+        {
+            "type": "bitmap",
+            "file": "custom:font/team.png",
+            "ascent": 24,
+            "height":42,
+            "chars": [
+                "\uA000",
+                "\uB000"
+
+            ]
+        }
+    ]
+}

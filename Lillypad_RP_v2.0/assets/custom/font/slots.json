@@ -1,0 +1,19 @@
+{
+    "providers": [
+        {
+            "type": "bitmap",
+            "file": "custom:font/slots.png",
+            "ascent": 9,
+            "height": 11,
+            "chars": [
+                "\uA000",
+                "\uB000",
+                "\uC000",
+                "\uD000",
+                "\uE000",
+                "\uF000"
+
+            ]
+        }
+    ]
+}

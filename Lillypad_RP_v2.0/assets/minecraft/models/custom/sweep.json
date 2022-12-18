@@ -1,0 +1,29 @@
+{
+	"credit": "Made with Blockbench",
+	"textures": {
+		"0": "custom/assets/sweep",
+		"particle": "custom/assets/sweep"
+	},
+	"elements": [
+		{
+			"from": [-16, 0, 0],
+			"to": [32, 0, 32],
+			"faces": {
+				"up": {"uv": [0, 0, 16, 16], "texture": "#0"},
+				"down": {"uv": [0, 16, 16, 0], "texture": "#0"}
+			}
+		}
+	],
+	"display": {
+		"thirdperson_righthand": {
+			"rotation": [113, 0, 0],
+			"translation": [-2.25, 21, 21],
+			"scale": [1.5, 1.5, 2]
+		},
+		"head": {
+			"rotation": [153.97, 10.88, -159.01],
+			"translation": [2.75, 5, 29.75],
+			"scale": [1.5, 1.5, 2]
+		}
+	}
+}

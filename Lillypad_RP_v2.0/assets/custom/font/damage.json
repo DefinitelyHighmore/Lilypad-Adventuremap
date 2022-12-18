@@ -1,0 +1,14 @@
+{
+    "providers": [
+        {
+            "type": "bitmap",
+            "file": "custom:font/type.png",
+            "ascent": 11,
+            "height":16,
+            "chars": [
+                "\uA000\uA001",
+                "\uB000\uB001"
+            ]
+        }
+    ]
+}
